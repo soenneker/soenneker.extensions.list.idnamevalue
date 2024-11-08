@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>netstandard2.1</TargetFrameworks>
+        <TargetFrameworks>net8.0</TargetFrameworks>
         <Nullable>enable</Nullable>
         <Platforms>AnyCPU</Platforms>
         <NoWarn>$(NoWarn);1591</NoWarn>
@@ -13,7 +13,7 @@
         <Version Condition="'$(BUILD_VERSION)' != ''">$(BUILD_VERSION)</Version>
         <AssemblyName>Soenneker.Extensions.List.IdNameValue</AssemblyName>
         <PackageId>Soenneker.Extensions.List.IdNameValue</PackageId>
-        <PackageTags>extensions list idnamevalue extension listidnamepairextension csharp dotnet c# .net</PackageTags>
+        <PackageTags>extensions list idnamevalue extension listidnamevalueextension csharp dotnet c# .net</PackageTags>
         <Copyright>Copyright © 2024 Jake Soenneker</Copyright>
         <Authors>Jake Soenneker</Authors>
         <Company>https://soenneker.com</Company>
@@ -39,5 +39,10 @@
         <None Include="..\README.md" Pack="true" PackagePath="\" />
         <None Include="..\LICENSE" Pack="true" PackagePath="\" />
         <None Include="..\icon.png" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Soenneker.Dtos.IdNameValue" Version="2.1.11" />
+      <PackageReference Include="Soenneker.Extensions.String" Version="2.1.257" />
     </ItemGroup>
 </Project>
