@@ -1,4 +1,4 @@
-# Contributing to Soenneker.Extensions.List.IdNameValue
+﻿# Contributing to Soenneker.Extensions.List.IdNameValue
 
 We're excited that you're interested in contributing!
 
