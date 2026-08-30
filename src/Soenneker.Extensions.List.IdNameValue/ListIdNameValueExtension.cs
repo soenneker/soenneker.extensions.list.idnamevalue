@@ -1,14 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.Contracts;
-using Soenneker.Extensions.String;
-
 namespace Soenneker.Extensions.List.IdNameValue;
 
 /// <summary>
-/// A collection of helpful List{IdNameValue} extension methods
+/// An extension namespace reserved for lists of IdNameValue objects.
 /// </summary>
 public static class ListIdNameValueExtension
 {
-
 }
